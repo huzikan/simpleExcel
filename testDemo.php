@@ -15,7 +15,7 @@ $headerMap = array(
     "percentField" => array('name' => '百分比字段', 'type' => 'percent')
 );
 
-$simpleExcel = new lib_simpleExcel();
+$simpleExcel = new simpleExcel();
 $simpleExcel->setFileName("测试列表_" . date('Y-m-d'));
 $simpleExcel->setXlsHeader($headerMap);
 
