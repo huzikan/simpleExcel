@@ -3,7 +3,9 @@
  * simple excel export class
  * @author huzikan@zbj.com
  */
-class lib_simpleExcel {
+namespace Util;
+
+class simpleExcel {
 	//数据转换临时目录
 	const TMP_FILE_DIR = './';
 
