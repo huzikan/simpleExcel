@@ -1,7 +1,6 @@
 <?php
 /**
  * simple excel export class
- * @author huzikan@zbj.com
  */
 namespace Util;
 
